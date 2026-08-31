@@ -9,7 +9,7 @@ permissions:
 jobs:
   run:
     runs-on: ubuntu-latest
-    timeout-minutes: 20
+    timeout-minutes: 35
     steps:
       - name: 检出仓库
         uses: actions/checkout@v5
