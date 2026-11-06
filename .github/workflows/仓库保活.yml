@@ -3,7 +3,7 @@ name: 仓库保活
 on:
   schedule:
     # 每月 1 号运行一次，避免仓库未更新导致 Actions 被禁用
-    - cron: '0 0 1 * *'
+    - cron: '17 2 1 * *'
   workflow_dispatch:
 
 jobs:
